@@ -7,11 +7,14 @@ import Cart from "./pages/cart/cart";
 function App() {
   return (
     <>
-      <Navbar />
+    <Navbar />
+      <div className="container">
+      
       <Routes>
         <Route path="/" element={<Shop/>} />
         <Route path="/cart" element={<Cart/>} />
       </Routes>
+      </div>
     </>
   );
 }

@@ -6,10 +6,11 @@ import "./shop.css"
 const Shop = () => {
   return (
     <div className='shop'>
-      <div className='shopTitle'>
-        <h1>Shopping Logo</h1>
+      <div className='shopTitle  my-4'>
+        <h1  className='d-flex justify-content-center' style={{marginTop: "40px"}}>Shop Here</h1>
+       <hr/>
       </div>
-      <div className='products'>
+      <div className='row '>
         {Products.map((product)=>
            <Product data={product}/>
         )}
