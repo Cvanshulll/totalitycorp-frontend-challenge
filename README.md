@@ -45,7 +45,7 @@ To run this project locally, follow these steps:
 4. Start the development server: `npm start`
 ## Deployment
 
-This project is deployed on [Netlify](https://your-netlify-link.com). You can access the live version [here](https://your-netlify-link.com).
+This project is deployed on [Netlify](https://shop-ecommercee.netlify.app/). You can access the live version [here](https://shop-ecommercee.netlify.app/).
 
 
 ## Repository
