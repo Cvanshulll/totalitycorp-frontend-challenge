@@ -3,7 +3,7 @@
 
 
 #### Overview:  
-This project is an e-commerce website that allows users to browse and buy products. It has features like viewing products, adding them to a cart, and checking out. This challenge tests coding skills, problem-solving, and user experience design.
+This project is an e-commerce website that allows users to browse and buy products. It has features like viewing products, adding them to a cart, and checking out.
 ## Features
 
 ### Product Listing
