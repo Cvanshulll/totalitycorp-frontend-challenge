@@ -28,9 +28,9 @@ const Cart = () => {
 
       {totalAmt > 0 ? (
         <div className="checkout my-4 pt-4">
-          <p> Subtotal: Rs.{totalAmt}</p>
+          <p> Subtotal: ₹ {totalAmt}</p>
           <button className="btn btn-dark me-3" onClick={() => navigate("/")}>Continue Shopping</button>
-          <button className="btn btn-dark">Checkout</button>
+          <button className="btn btn-dark" onClick={() => navigate("/checkout")}>Checkout</button>
         </div>
       ) : (
         <h3 style={{ margin: "20px" }}>Your cart is Empty!</h3>
